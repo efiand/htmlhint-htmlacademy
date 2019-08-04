@@ -11,7 +11,16 @@ if (~process.argv.indexOf('-u')) {
   .then((res) => res.json())
   .then((body) => {
 	// разрешение svg-атрибутов (https://github.com/htmlacademy/codeguide/issues/32)
-	body['attr-lowercase'] = ['viewBox', 'preserveAspectRatio'];
+	if (typeof body['attr-lowercase'] !== 'object') {
+      body['attr-lowercase'] = [];
+    }
+	let attrLower = body['attr-lowercase'];
+	if (!~attrLower.indexOf('viewBox')) {
+      attrLower.push('viewBox');
+    }
+	if (!~attrLower.indexOf('preserveAspectRatio')) {
+      attrLower.push('preserveAspectRatio');
+    }
 
     const data = JSON.stringify(body);
     fs.writeFile(dirname + '/htmlhintrc.json', data, () => {
