@@ -22,6 +22,9 @@ if (~process.argv.indexOf('-u')) {
       attrLower.push('preserveAspectRatio');
     }
 
+	// БЭМ-совместимая конфигурация
+    body['id-class-value'] = false;
+
     const data = JSON.stringify(body);
     fs.writeFile(dirname + '/htmlhintrc.json', data, () => {
       console.info(packageName + ': properties list successfully updated!');

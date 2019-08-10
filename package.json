@@ -1,6 +1,6 @@
 {
   "name": "htmlhint-htmlacademy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "ISC",
   "repository": "git@github.com:efiand/htmlhint-htmlacademy.git",
   "scripts": {
