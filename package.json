@@ -1,8 +1,9 @@
 {
   "name": "htmlhint-htmlacademy",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "license": "ISC",
   "repository": "git@github.com:efiand/htmlhint-htmlacademy.git",
+  "sourceUrl": "https://raw.githubusercontent.com/htmlacademy/codeguide/master/.htmlhintrc",
   "scripts": {
     "postinstall": "node . -u"
   },
