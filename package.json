@@ -1,12 +1,13 @@
 {
   "name": "htmlhint-htmlacademy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "ISC",
   "repository": "git@github.com:efiand/htmlhint-htmlacademy.git",
   "scripts": {
-    "postinstall": "node index -u"
+    "postinstall": "node ./ -u"
   },
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "chalk": "4.1.0",
+    "node-fetch": "2.6.1"
   }
 }
