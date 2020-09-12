@@ -4,7 +4,7 @@
   "license": "ISC",
   "repository": "git@github.com:efiand/htmlhint-htmlacademy.git",
   "scripts": {
-    "postinstall": "node ./ -u"
+    "postinstall": "node . -u"
   },
   "dependencies": {
     "chalk": "4.1.0",
