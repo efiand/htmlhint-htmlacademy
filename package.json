@@ -1,6 +1,6 @@
 {
   "name": "htmlhint-htmlacademy",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "ISC",
   "repository": "git@github.com:efiand/htmlhint-htmlacademy.git",
   "sourceUrl": "https://raw.githubusercontent.com/htmlacademy/htmlhint-config-htmlacademy/main/.htmlhintrc",

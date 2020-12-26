@@ -1,6 +1,6 @@
 # htmlhint-htmlacademy [![npm version](https://img.shields.io/npm/v/htmlhint-htmlacademy.svg)](https://www.npmjs.com/package/htmlhint-htmlacademy)
 
-Настройки проверки HTML с помощью htmlhint по [актуальному кодгайду](https://github.com/htmlacademy/codeguide/blob/master/.htmlhintrc) HTML Academy.
+Настройки проверки HTML с помощью htmlhint по [актуальному кодгайду](https://raw.githubusercontent.com/htmlacademy/htmlhint-config-htmlacademy/main/.htmlhintrc) HTML Academy.
 
 ## Установка
 
